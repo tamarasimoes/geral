@@ -1,0 +1,23 @@
+img {
+    width:30%;
+}
+
+.side-content {
+    width:30%;
+    display:inline-block;
+    text-align:center;
+    padding:1%;
+}
+
+.title {
+    color: rgb(29, 133, 46);
+    font-family: 'Epilogue', sans-serif;
+    font-size:15px;
+    font-weight: 700;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 150%;
+    font-size: 11px;
+}
