@@ -16,8 +16,14 @@ img {
     font-weight: 700;
 }
 
-p {
+p, li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 150%;
     font-size: 11px;
+}
+
+.home {
+    width:50%;
+    float:left;
+    padding-right:3%;
 }
