@@ -169,3 +169,73 @@ let groceryList = ['Arroz', 'Feijao', 'Alface', 'Melancia'];
 for (lista = 0; lista < groceryList.length; lista++) {
     console.log(groceryList[lista]);
 }
+
+let arrayTeste = [1, 3, 5, 7, 9];
+
+for (let lists of arrayTeste) {
+    console.log(lists);
+}
+
+let groceryList = ['Arroz', 'Feijao', 'Alface', 'Melancia'];
+
+for (let lista of groceryList) {
+    console.log(lista);
+}
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+//console.log(numbers); //1
+
+let total = 0; //2
+let media = 0; //3
+for (let soma = 0; soma < numbers.length; soma++) {
+    total = total + numbers[soma];
+    media = total / numbers.length;
+}
+
+console.log(total);
+console.log(media);
+
+if (media > 20) { //4
+    console.log('Valor maior que 20');
+}
+else {
+    console.log('Valor menor ou igual a 20');
+}
+
+let maisIdade; //5
+for (let idade = 0; idade < numbers.length; idade++) {
+    maisIdade = Math.max(...numbers); //operador spread, modo curto de pedir valor de array (...), IMPORTANTE.
+}
+console.log(maisIdade);
+
+// let impares;
+// for (let quanto = 0; quanto < numbers.length; quanto++) {
+//     impares = numbers[quanto] % 1;
+// }
+
+// console.log(impares);
+
+let menorvalor;
+for (menos = 0; menos < numbers.length; menos++) {
+    menorvalor = Math.min(...numbers);
+}
+console.log(menorvalor); //7;
+
+let criArray;
+for (cria = 0; cria < 26; cria++) {
+    criArray = [0];
+    criArray.push(cria++);
+    console.log(criArray);
+}
+
+let game = [2, 4, 6, 8, 10];
+let sorteio = [2, 4, 5, 8, 30, 40];
+
+let numeroAcertos;
+for (let num = 0; num < sorteio.length; num++) {
+    let sorteado = sorteio[num];
+    for(let num2 = 0; num2 < game.length; num2++) {
+        let jogos = game[num2];
+    }
+}
