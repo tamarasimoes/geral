@@ -12,3 +12,17 @@ else {
     console.log("Valor menor que 16");
 }
 
+//exercício 1
+
+n = 5;
+for (i = 0; i < n; i++) {
+    console.log("*****");
+}
+
+//exercicio 2
+for (it = 0; it < n; it++) {
+    n -= 1;
+    console.log(n);
+}
+
+//exercicio 3

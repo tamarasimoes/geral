@@ -172,7 +172,7 @@ for (lista = 0; lista < groceryList.length; lista++) {
 
 let arrayTeste = [1, 3, 5, 7, 9];
 
-for (let lists of arrayTeste) {
+for (let lists of arrayTeste) { //for / of
     console.log(lists);
 }
 
