@@ -24,5 +24,3 @@ for (it = 0; it < n; it++) {
     n -= 1;
     console.log(n);
 }
-
-//exercicio 3
