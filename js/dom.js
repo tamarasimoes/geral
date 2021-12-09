@@ -1,0 +1,1 @@
+document.getElementById('teste').innerText = "Alterando o conteúdo";
