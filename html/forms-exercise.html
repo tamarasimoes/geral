@@ -5,9 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Gafata&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
+    <header>
+        Cadastro de Currículo
+        <hr>
+    </header>
     <form>
         <fieldset>
             <legend>Dados Pessoais</legend>
@@ -24,8 +31,23 @@
             <label for="state">Estado:</label>
             <select name="state" id="state" required>
                 <option disabled selected value>Selecione seu Estado:</option>
-            </select>
+            </select><p></p>
+            <label for="type-input" aria-required="true">Tipo:</label><br>
+            <input type="radio" id="type-input" name="type-input" value="casa">Casa<br>
+            <input type="radio" id="type-input" name="type-input" value="apt">Apartamento
         </fieldset>
+        <fieldset>
+            <legend>Dados de seu últmo emprego</legend>
+            <label for="abstract-input">Resumo do currículo:</label><br>
+            <textarea id="abstract-input" class="abstract" maxlength="1000" required></textarea><p></p>
+            <label for="job-input">Descrição do cargo:</label><br>
+            <textarea id="job-input" class="abstract" style="height: 70px;" maxlength="500" required></textarea><p></p>
+            <label for="date-input">Data de início:</label><br>
+            <input type="date" name="date-input" id="date-input" required><p></p>
+        </fieldset>
+        <div class="send">
+            <button>Enviar</button>
+        </div>
     </form>
     <script src="/js/script-form.js">
     </script>
