@@ -1,0 +1,38 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-container {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 20px 0;
+    flex-direction: row; /* row, row-reverse, column, column-reverse */
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 5px;
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+}
